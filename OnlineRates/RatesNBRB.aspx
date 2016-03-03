@@ -49,8 +49,8 @@
                                         ControlToValidate="tbStartDateCurrency" ForeColor="Red"></asp:RequiredFieldValidator>
 									<asp:RegularExpressionValidator ID="revDate1" runat="server" 
 										ErrorMessage="Uncorrect Date" ForeColor="Red" ControlToValidate="tbStartDateCurrency" 
-										ValidationExpression="((0\d|1[012])\.([0-2]\d|3[01])\.(\d{4}))" Display="Dynamic"></asp:RegularExpressionValidator>
-						            <asp:CalendarExtender ID="calendarAjaxStart" runat="server" TargetControlID="tbStartDateCurrency" Format="MM'.'dd'.'yyyy">
+										ValidationExpression="(([0-2]\d|3[01])\.(0\d|1[012])\.(\d{4}))" Display="Dynamic"></asp:RegularExpressionValidator>
+						            <asp:CalendarExtender ID="calendarAjaxStart" runat="server" TargetControlID="tbStartDateCurrency" Format="dd'.'MM'.'yyyy">
 						            </asp:CalendarExtender>
 					            </td>
 					            <td>
@@ -63,8 +63,8 @@
                                         ControlToValidate="tbEndDateCurrency" ForeColor="Red"></asp:RequiredFieldValidator>
 									<asp:RegularExpressionValidator ID="revDate2" runat="server" 
 										ErrorMessage="Uncorrect Date" ForeColor="Red" 
-										ValidationExpression="((0\d|1[012])\.([0-2]\d|3[01])\.(\d{4}))" Display="Dynamic" ControlToValidate="tbEndDateCurrency"></asp:RegularExpressionValidator>
-						            <asp:CalendarExtender ID="calendarAjaxEnd" runat="server" TargetControlID="tbEndDateCurrency" Format="MM'.'dd'.'yyyy">
+										ValidationExpression="(([0-2]\d|3[01])\.(0\d|1[012])\.(\d{4}))" Display="Dynamic" ControlToValidate="tbEndDateCurrency"></asp:RegularExpressionValidator>
+						            <asp:CalendarExtender ID="calendarAjaxEnd" runat="server" TargetControlID="tbEndDateCurrency" Format="dd'.'MM'.'yyyy">
 						            </asp:CalendarExtender>
 					            </td>
 				            </tr>
