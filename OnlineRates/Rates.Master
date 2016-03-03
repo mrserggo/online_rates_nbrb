@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Rates.master.cs" Inherits="OnlineRates.Rates" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Head-->
+<head id="Head1" runat="server">
+<title>Курсы валют онлайн</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;charset=utf-8" />
+<link href="Styles/style000.css" rel="stylesheet" type="text/css" />
+<link href="Styles/layout00.css" rel="stylesheet" type="text/css" />
+<link href="Styles/MyCSSStyles.css" rel="stylesheet" type="text/css" />
+<link href="Styles/NBRBElements.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!--body-->
+<body id="page1">
+    <form id="form1" runat="server">
+<div class="tail-top-right"></div>
+<div id="main">
+  <!-- header -->
+  <div id="header">
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      </asp:ContentPlaceHolder>
+  </div>
+  <!-- content -->
+  <div id="content">
+    <div class="wrapper">
+      <div class="col-1">
+        <div class="box">
+          <div class="border-top">
+            <div class="border-right">
+              <div class="border-bot">
+                <div class="border-left">
+                  <div class="inner">
+                    <h2>Наши партнеры</h2>
+                    <ul class="list">
+                      <li><span><a href="http://afn.by" target="_Blank">afn.by</a></span></li>
+                      <li><span><a href="http://open.by/finance" target="_Blank">open.by/finance</a></span></li>
+                      <li><span><a href="http://infobank.by" target="_Blank">infobank.by</a></span></li>
+                      <li><span><a href="http://n1.by/finance" target="_Blank">n1.by/finance</a></span></li>
+                      <li><span><a href="http://kurs.by" target="_Blank">kurs.by</a></span></li>
+                      <li class="last"><span><a href="http://finance.tut.by" target="_Blank">finance.tut.by</a></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner"><a href=""><img src="Styles/banner00.gif" alt="" /></a></div>
+      </div>
+     <div class="col-2">
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                      </asp:ContentPlaceHolder>   
+    </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div id="footer">
+    <div class="indent">
+      <div class="fleft">Copyrights - Gomza Sergey 2012
+	  </div>
+      <div class="fright">Designed by: <img alt="@Djoser@" 
+              src="Styles/designer.gif"/> 
+	  </div>
+    </div>
+  </div>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿#metals_rates_table
+{
+    width: 830px;
+    padding: 5px;
+	border-collapse: collapse;
+	border-bottom: solid 1px violet;
+    text-align: center;
+}
+
+#metals_rates_table thead tr th
+{
+	border: solid 1px black;
+	text-align:center;
+	background-color: grey;
+	font-size: 14px;
+}
+#metals_rates_table tr td
+{
+    padding:3px 5px 3px 5px;
+    width: 25%;
+}
+
+#metals_rates_table .borderLeft
+{
+	border-left: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+#metals_rates_table .borderRight
+{
+	border-right: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+.redMetalTitle
+{
+    text-align: left;
+    color: red;
+    font-size: 16px;
+}

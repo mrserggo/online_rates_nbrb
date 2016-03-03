@@ -1,0 +1,56 @@
+﻿body {
+padding: 0 0 0;
+color: #000;
+font-family: Comic Sans MS, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.center
+{
+    text-align:center;
+    margin: 0px auto;
+}
+
+#containermain
+{
+width: 850px;
+height: 600px;
+background-image: url('Login.jpg');
+margin: 0 0px 0 auto;
+}
+
+.center
+{
+    text-align:center;
+    margin: 0px auto;
+}
+
+/*Форма авторизации*/
+#table1
+{
+width:350px;
+text-align:left;
+border-color:Yellow; 
+border-style:dotted;       
+}
+
+#table1 td {border-style:inset; border-color:Purple; border-width:thin;}
+
+/*Форма регистрации*/
+#table2
+{
+width:450px;
+text-align:left;
+border-color:Yellow; 
+border-style:dotted;       
+}
+
+#table2 td {border-style:inset; border-color:Purple; border-width:thin;}
+
+#tableList
+{
+    text-align:center; 
+}
+#info
+{
+	margin-top: 150px;
+}

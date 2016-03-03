@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01126C9D-024E-4FE9-96FC-B58EB68760B3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineRates</RootNamespace>
+    <AssemblyName>OnlineRates</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.51116.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Controls\ControlForAddRate.ascx" />
+    <Content Include="Controls\ControlForEditRate.ascx" />
+    <Content Include="Controls\MainRatesNBRBControl.ascx" />
+    <Content Include="Controls\MetalsRates.ascx" />
+    <Content Include="Controls\RatesInBanks.ascx" />
+    <Content Include="Controls\RatesMonitoring.ascx" />
+    <Content Include="Controls\RatesNBRB.ascx" />
+    <Content Include="CrossRatesandConverter.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Finance.aspx" />
+    <Content Include="Images\Converter\ARGENTINA.GIF" />
+    <Content Include="Images\Converter\AUSTRALIA.GIF" />
+    <Content Include="Images\Converter\Belarus.png" />
+    <Content Include="Images\Converter\Bulgaria.png" />
+    <Content Include="Images\Converter\CANADA.GIF" />
+    <Content Include="Images\Converter\Canada.png" />
+    <Content Include="Images\Converter\convert.png" />
+    <Content Include="Images\Converter\down_arrow.jpg" />
+    <Content Include="Images\Converter\EGYPT.GIF" />
+    <Content Include="Images\Converter\EU.png" />
+    <Content Include="Images\Converter\INDIA.GIF" />
+    <Content Include="Images\Converter\IRELAND.GIF" />
+    <Content Include="Images\Converter\japan.png" />
+    <Content Include="Images\Converter\Latvia.png" />
+    <Content Include="Images\Converter\Lithuania.png" />
+    <Content Include="Images\Converter\Norway.png" />
+    <Content Include="Images\Converter\Russia.png" />
+    <Content Include="Images\Converter\Sweden.png" />
+    <Content Include="Images\Converter\Switzerland.png" />
+    <Content Include="Images\Converter\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Images\Converter\UK.png" />
+    <Content Include="Images\Converter\Ukraine.png" />
+    <Content Include="Images\Converter\USA.png" />
+    <Content Include="Images\MainRates\currency_dollarblue_24x24.png" />
+    <Content Include="Images\MainRates\currency_euroblue_24x24.png" />
+    <Content Include="Images\MainRates\currency_poundblue_24x24.png" />
+    <Content Include="Images\MainRates\currency_roublebluenew_24x24.png" />
+    <Content Include="Images\MainRates\currency_roubleblue_24x24.png" />
+    <Content Include="Images\MainRates\currency_rouble_24x24.png" />
+    <Content Include="Images\MainRates\currency_yuanblue_24x24.png" />
+    <Content Include="Images\MainRates\Down.png" />
+    <Content Include="Images\MainRates\Drow.png" />
+    <Content Include="Images\MainRates\ExactlySame.png" />
+    <Content Include="Images\MainRates\Up.png" />
+    <Content Include="Images\RatesInBanks\onebit_05.png" />
+    <Content Include="Images\RatesInBanks\onebit_11.png" />
+    <Content Include="Images\RatesInBanks\onebit_12.png" />
+    <Content Include="Images\RatesInBanks\onebit_31.png" />
+    <Content Include="Images\RatesInBanks\onebit_33.png" />
+    <Content Include="Images\RatesInBanks\onebit_34.png" />
+    <Content Include="Images\RatesInBanks\onebit_39.png" />
+    <Content Include="RatesInBanks.aspx" />
+    <Content Include="RatesNBRB.aspx" />
+    <Content Include="Scripts\jquery-1.4.2.min.js" />
+    <Content Include="Scripts\jquery.effects.blind.js" />
+    <Content Include="Scripts\jquery.effects.core.js" />
+    <Content Include="Styles\1page-im.jpg" />
+    <Content Include="Styles\1page-in.jpg" />
+    <Content Include="Styles\1page-io.jpg" />
+    <Content Include="Styles\banner00.gif" />
+    <Content Include="Styles\border00.gif" />
+    <Content Include="Styles\buttonAuthorization.jpg" />
+    <Content Include="Styles\buttonRegistration.jpg" />
+    <Content Include="Styles\designer.gif" />
+    <Content Include="Styles\EditRate.css" />
+    <Content Include="Styles\header-b.jpg" />
+    <Content Include="Styles\header-bg.jpg" />
+    <Content Include="Styles\layout00.css" />
+    <Content Include="Styles\line0000.gif" />
+    <Content Include="Styles\link-bgd.gif" />
+    <Content Include="Styles\link-lef.gif" />
+    <Content Include="Styles\link-rig.gif" />
+    <Content Include="Styles\Login.jpg" />
+    <Content Include="Styles\MainRatesStyle.css" />
+    <Content Include="Styles\marker-1.gif" />
+    <Content Include="Styles\marker-2.gif" />
+    <Content Include="Styles\marker-3.gif" />
+    <Content Include="Styles\Metals.css" />
+    <Content Include="Styles\MyCSSStyles.css" />
+    <Content Include="Styles\NBRBElements.css" />
+    <Content Include="Styles\RatesInBanks.css" />
+    <Content Include="Styles\RatesMonitoring.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\style000.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.accordion.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.all.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.autocomplete.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.base.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.button.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.core.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.datepicker.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.dialog.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.progressbar.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.resizable.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.selectable.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.slider.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.tabs.css" />
+    <Content Include="Styles\StylesJS\jquery.ui.theme.css" />
+    <Content Include="Styles\tail-top.gif" />
+    <Content Include="Styles\tail-toq.gif" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlForAddRate.ascx.cs">
+      <DependentUpon>ControlForAddRate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlForAddRate.ascx.designer.cs">
+      <DependentUpon>ControlForAddRate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ControlForEditRate.ascx.cs">
+      <DependentUpon>ControlForEditRate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlForEditRate.ascx.designer.cs">
+      <DependentUpon>ControlForEditRate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MainRatesNBRBControl.ascx.cs">
+      <DependentUpon>MainRatesNBRBControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MainRatesNBRBControl.ascx.designer.cs">
+      <DependentUpon>MainRatesNBRBControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MetalsRates.ascx.cs">
+      <DependentUpon>MetalsRates.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MetalsRates.ascx.designer.cs">
+      <DependentUpon>MetalsRates.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RatesInBanks.ascx.cs">
+      <DependentUpon>RatesInBanks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RatesInBanks.ascx.designer.cs">
+      <DependentUpon>RatesInBanks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RatesMonitoring.ascx.cs">
+      <DependentUpon>RatesMonitoring.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RatesMonitoring.ascx.designer.cs">
+      <DependentUpon>RatesMonitoring.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RatesNBRB.ascx.cs">
+      <DependentUpon>RatesNBRB.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RatesNBRB.ascx.designer.cs">
+      <DependentUpon>RatesNBRB.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CrossRatesandConverter.aspx.cs">
+      <DependentUpon>CrossRatesandConverter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossRatesandConverter.aspx.designer.cs">
+      <DependentUpon>CrossRatesandConverter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\BankRateInfo.cs" />
+    <Compile Include="Data\DDLConverter.cs" />
+    <Compile Include="Data\ExRatesNow.cs" />
+    <Compile Include="Data\RateInBank.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Finance.aspx.cs">
+      <DependentUpon>Finance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Finance.aspx.designer.cs">
+      <DependentUpon>Finance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\CustomersManager.cs" />
+    <Compile Include="Logic\ExRates.cs" />
+    <Compile Include="Logic\MinskRatesManager.cs" />
+    <Compile Include="Logic\NBRBManager.cs" />
+    <Compile Include="OnlineRates.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OnlineRates.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rates.Master.cs">
+      <DependentUpon>Rates.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rates.Master.designer.cs">
+      <DependentUpon>Rates.Master</DependentUpon>
+    </Compile>
+    <Compile Include="RatesInBanks.aspx.cs">
+      <DependentUpon>RatesInBanks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RatesInBanks.aspx.designer.cs">
+      <DependentUpon>RatesInBanks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RatesNBRB.aspx.cs">
+      <DependentUpon>RatesNBRB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RatesNBRB.aspx.designer.cs">
+      <DependentUpon>RatesNBRB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Data\Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Rates.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OnlineRates.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>OnlineRates.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OnlineRates.dbml.layout">
+      <DependentUpon>OnlineRates.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3220</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/OnlineRates</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

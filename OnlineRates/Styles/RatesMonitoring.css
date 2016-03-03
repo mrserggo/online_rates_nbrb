@@ -1,0 +1,41 @@
+﻿#rates_monitoring_table
+{
+    width: 830px;
+    padding: 5px;
+	border-collapse: collapse;
+	border-bottom: solid 1px violet;
+    text-align: center;
+}
+
+#rates_monitoring_table thead tr th
+{
+	border: solid 1px black;
+	text-align:center;
+	background-color: grey;
+	font-size: 14px;
+}
+#rates_monitoring_table tr td
+{
+    padding:3px 5px 3px 5px;
+    width: 25%;
+}
+
+#rates_monitoring_table .borderLeft
+{
+	border-left: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+#rates_monitoring_table .borderRight
+{
+	border-right: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+.redTitle
+{
+    color: red;
+}
+.blackTitle
+{
+    color: black;
+    font-size: 16px;
+}

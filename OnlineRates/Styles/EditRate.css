@@ -1,0 +1,35 @@
+﻿#edit_rate_table
+{
+    width: 830px;
+    padding: 5px;
+	border-collapse: collapse;
+	border-bottom: solid 1px violet;
+	border-left: solid 1px violet;
+	border-top: solid 1px violet;
+	border-right: solid 1px violet;
+    text-align: center;
+}
+
+#edit_rate_table tr td
+{
+    padding: 5px 10px;
+    border-left: solid 1px violet;
+    border-right: solid 1px violet;
+    border-bottom: solid 1px violet;
+}
+#edit_rate_table thead tr th
+{
+    background-color: gray;
+    border: solid 1px black;
+	text-align:center;
+	font-size: 14px;
+}
+.redTitle
+{
+    color: red;
+}
+.blackTitle
+{
+    color: black;
+    font-size: 16px;
+}

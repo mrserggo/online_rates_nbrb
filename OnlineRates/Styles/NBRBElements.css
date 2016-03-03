@@ -1,0 +1,179 @@
+﻿/*таблица с финансовыми событиями*/
+#event_table 
+{
+	width: 95%;
+	margin: 0 auto;
+    border-collapse: collapse;
+}
+#event_table td
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: violet;
+	color: black;
+}
+.text_center
+{
+    text-align: center;
+}
+.first_column
+{
+	width: 80%;
+	font-size: 14px;
+	background-color: grey;
+}
+.second_column
+{
+	font-size: 14px;
+	background-color: grey;
+}
+#containerFinance
+{
+	width: 850px;
+	height: auto;
+	background-color: lightgrey;
+	margin: 0 0px 0 auto;
+}
+#containerFinance .header_news
+{
+	color: red;
+}
+#containerFinance .news
+{
+	background-color: powderblue;
+}
+#containerFinance .news:hover
+{
+	background-color: yellow;
+}
+.margin_main_rates
+{
+	margin-top: 20px;
+}
+/*Страница с данными из НБ РБ*/
+#containerRatesNBRB
+{
+	width: 850px;
+	height: auto;
+    padding: 0 10px;
+	background-color: lightgrey;
+	margin: 0 0px 0 auto;
+}
+#rates_monitoring_header
+{
+    width: 830px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: grey;
+}
+.column1
+{
+    width: 50%;
+}
+.column2
+{
+    width: 25%;
+}
+#rates_monitoring_header .redText
+{
+    color: red;
+}
+#rates_monitoring_header .borderLeft
+{
+	border-left: solid 1px black;
+	border-bottom: solid 1px black;
+}
+#rates_monitoring_header .borderTop
+{
+    border-top: solid 1px black;
+}
+#rates_monitoring_header .borderRight
+{
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+}
+/*Страница с конвертером и кросскурсами валют*/
+#cross_and_converter
+{
+	width: 850px;
+    height: 390px;
+    padding: 0 10px;
+	background-color: lightgrey;
+	margin: 0 0px 0 auto;
+}
+#converter_table
+{
+    width: 600px;
+    border-collapse: collapse;
+    background-color: grey;
+}
+#converter_table td
+{
+    padding: 3px;
+    border: dashed 1px black;
+}
+#converter_table .column1
+{
+    width: 80px;
+}
+#converter_table .column2
+{
+    width: 200px;
+}
+#converter_table .column3
+{
+    text-align: center;
+    width: 40px;
+}
+#converter_table .column4
+{
+    width: 200px;
+}
+#converter_table .column5
+{
+    width: 80px;
+}
+.titleInfo
+{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: red;
+}
+#cross_rates_table
+{
+    font-size: 14px;
+    width: 830px;
+}
+#cross_rates_table td
+{
+    height: 20px;
+    padding: 5px;
+}
+#cross_rates_table .borderLeft
+{
+	border-left: dashed 1px black;
+	border-bottom: dashed 1px black;
+}
+#cross_rates_table .borderTop
+{
+    border-top: dashed 1px black;
+}
+#cross_rates_table .borderRight
+{
+	border-right: dashed 1px black;
+	border-bottom: dashed 1px black;
+}
+.align_right
+{
+    text-align: right;
+}
+/*Страница с курсами валют в Минске*/
+#rates_in_Minsk
+{
+	width: 850px;
+    height: auto;
+    padding: 0 10px;
+	background-color: lightgrey;
+	margin: 0 0px 0 auto;
+}

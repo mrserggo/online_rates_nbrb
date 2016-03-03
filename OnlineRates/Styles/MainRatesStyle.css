@@ -1,0 +1,51 @@
+﻿#main_rates_block
+{
+	border-bottom: solid 1px violet;
+	padding: 5px;
+	border-collapse: collapse;
+	background-color: lightgrey;
+}
+
+#main_rates_block thead tr th
+{
+	border: solid 1px black;
+	text-align:center;
+	background-color: grey;
+	font-size: 14px;
+}
+.redTitle
+{
+	color: Red;
+}
+#main_rates_block tr td
+{
+    padding:3px 5px 3px 5px;
+}
+
+#main_rates_block .borderLeft
+{
+	border-left: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+#main_rates_block .borderRight
+{
+	border-right: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+
+#main_rates_block .borderLeftRightNone
+{
+	border-left:none;
+	border-right:none;
+	border-bottom: solid 1px violet;
+}
+#main_rates_block .rate_change
+{
+	font-size: 10px;
+	font-family: sans-serif;
+}
+.all_rates_table
+{
+    text-align: center;
+    width: 410px;
+}

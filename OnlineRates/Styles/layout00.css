@@ -1,0 +1,13 @@
+#main {width:1200px; margin:0 auto; position:relative;}
+
+#header {height:285px; background:url(header-bg.jpg) no-repeat left top;}
+#header, #content, #footer { font-size:0.75em;}
+
+.col-1, .col-2 { float:left;}
+
+/*======= Колонки =======*/
+#page1 #content .col-1 {width:250px; margin-right:20px;}
+#page1 #content .col-2 { width:850px;}
+/*=========================*/
+
+#footer {height:89px;}

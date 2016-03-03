@@ -1,0 +1,40 @@
+﻿#rates_in_banks_table
+{
+    width: 830px;
+    padding: 5px;
+	border-collapse: collapse;
+	border-bottom: solid 1px violet;
+    text-align: center;
+}
+
+#rates_in_banks_table thead tr th
+{
+	border: solid 1px black;
+	text-align:center;
+	background-color: grey;
+	font-size: 14px;
+}
+#rates_in_banks_table tr td
+{
+    padding:3px 5px 3px 5px;
+}
+
+#rates_in_banks_table .borderLeft
+{
+	border-left: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+#rates_in_banks_table .borderRight
+{
+	border-right: solid 1px violet;
+	border-bottom: solid 1px violet;
+}
+.redTitle
+{
+    color: red;
+}
+.blackTitle
+{
+    color: black;
+    font-size: 16px;
+}
