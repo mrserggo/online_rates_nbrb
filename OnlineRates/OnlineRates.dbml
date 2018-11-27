@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OnlineRates" Class="OnlineRatesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=GOMZAS;Initial Catalog=OnlineRates;Integrated Security=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="OnlineRatesConnectionString1" Provider="System.Data.SqlClient" />
+  <Connection Mode="WebSettings" ConnectionString="Data Source=GOMZAS;Initial Catalog=OnlineRates;Integrated Security=True;User ID=sa;Password=123456;" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="OnlineRatesConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Bank" Member="Banks">
     <Type Name="Bank">
       <Column Name="BankId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />

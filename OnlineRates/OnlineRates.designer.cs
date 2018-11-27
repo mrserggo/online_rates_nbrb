@@ -42,7 +42,7 @@ namespace OnlineRates
     #endregion
 		
 		public OnlineRatesDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["OnlineRatesConnectionString1"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["OnlineRatesConnectionString"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

@@ -107,7 +107,7 @@
         <div>
         <asp:AllMetalsRates id="metalsRates" runat="server"/>
         </div>
-		<asp:ToolkitScriptManager ID="toolScriptManager" runat="server">
-		</asp:ToolkitScriptManager>
+		<asp:ScriptManager ID="toolScriptManager" runat="server">
+		</asp:ScriptManager>
 	</div>
 </asp:Content>
