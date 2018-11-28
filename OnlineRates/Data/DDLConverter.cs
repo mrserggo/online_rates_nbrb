@@ -21,7 +21,7 @@ namespace OnlineRates.Data
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/EU.png'/>";
             objDDLImage.ddlText = "Евро";
-            objDDLImage.ddlId = 19;
+            objDDLImage.ddlId = 292;
             lstDDLImage.Add(objDDLImage);
 
             objDDLImage = new DDLImage();
@@ -29,16 +29,17 @@ namespace OnlineRates.Data
             objDDLImage.ddlText = "Канадский доллар";
             objDDLImage.ddlId = 23;
             lstDDLImage.Add(objDDLImage);
+
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/japan.png'/>";
             objDDLImage.ddlText = "Японская иена";
-            objDDLImage.ddlId = 67;
+            objDDLImage.ddlId = 295;
             lstDDLImage.Add(objDDLImage);
 
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/Sweden.png'/>";
             objDDLImage.ddlText = "Шведская крона";
-            objDDLImage.ddlId = 129;
+            objDDLImage.ddlId = 306;
             lstDDLImage.Add(objDDLImage);
 
             objDDLImage = new DDLImage();
@@ -50,7 +51,7 @@ namespace OnlineRates.Data
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/Russia.png'/>";
             objDDLImage.ddlText = "Российский рубль";
-            objDDLImage.ddlId = 190;
+            objDDLImage.ddlId = 298;
             lstDDLImage.Add(objDDLImage);
 
             objDDLImage = new DDLImage();
@@ -68,7 +69,7 @@ namespace OnlineRates.Data
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/Ukraine.png'/>";
             objDDLImage.ddlText = "Украинская гривна";
-            objDDLImage.ddlId = 224;
+            objDDLImage.ddlId = 290;
             lstDDLImage.Add(objDDLImage);
 
             objDDLImage = new DDLImage();
@@ -86,7 +87,7 @@ namespace OnlineRates.Data
             objDDLImage = new DDLImage();
             objDDLImage.ddlImgPath = "<img class='ddlImg' src='Images/Converter/Norway.png'/>";
             objDDLImage.ddlText = "Норвежская крона";
-            objDDLImage.ddlId = 101;
+            objDDLImage.ddlId = 297;
             lstDDLImage.Add(objDDLImage);
 
             return lstDDLImage;

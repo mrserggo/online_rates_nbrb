@@ -19,9 +19,9 @@ namespace OnlineRates
         {
             if (!IsPostBack)
             {
-                var dataEURO = exRates.ExRatesDyn(19, DateTime.Now.Date, DateTime.Now.Date);
+                var dataEURO = exRates.ExRatesDyn(292, DateTime.Now.Date, DateTime.Now.Date);
                 var dataUSD = exRates.ExRatesDyn(145, DateTime.Now.Date, DateTime.Now.Date);
-                var dataRUB = exRates.ExRatesDyn(190, DateTime.Now.Date, DateTime.Now.Date);
+                var dataRUB = exRates.ExRatesDyn(290, DateTime.Now.Date, DateTime.Now.Date);
                 
                 if ((dataEURO != null)&&(dataUSD != null)&&(dataRUB != null))
                 {
